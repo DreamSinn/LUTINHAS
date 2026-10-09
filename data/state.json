@@ -1,0 +1,384 @@
+{
+  "version": 2,
+  "settings": {
+    "fightWinner": 70,
+    "fightHouse": 20,
+    "fightFund": 10,
+    "groupWinner": 85,
+    "groupHouse": 15,
+    "championWinner": 80,
+    "championHouse": 20,
+    "entryFee": 20
+  },
+  "bracketSize": 8,
+  "fighters": [
+    {
+      "id": "f1",
+      "name": "Aela, a Caçadora",
+      "isBolg": false
+    },
+    {
+      "id": "f2",
+      "name": "Ragnar Punho de Ferro",
+      "isBolg": false
+    },
+    {
+      "id": "f3",
+      "name": "Sigrun da Neve",
+      "isBolg": false
+    },
+    {
+      "id": "f4",
+      "name": "Hrothgar, o Incansável",
+      "isBolg": false
+    },
+    {
+      "id": "f5",
+      "name": "Vilkas de Jorrvaskr",
+      "isBolg": false
+    },
+    {
+      "id": "f6",
+      "name": "Kora Lâmina Rubra",
+      "isBolg": false
+    },
+    {
+      "id": "f7",
+      "name": "Bjorna Martelo-Seco",
+      "isBolg": false
+    },
+    {
+      "id": "f8",
+      "name": "Malacath Filho do Ferro",
+      "isBolg": false
+    }
+  ],
+  "matches": [
+    {
+      "id": "r0m0",
+      "roundIndex": 0,
+      "round": "Quartas de final",
+      "label": "Luta 1",
+      "a": "f8",
+      "b": "f1",
+      "winner": "f8",
+      "status": "closed",
+      "settlement": {
+        "total": 0,
+        "winnerPool": 0,
+        "house": 0,
+        "purse": 0,
+        "distributed": 0,
+        "payments": [],
+        "winnerId": "f8",
+        "at": 1791572594057
+      }
+    },
+    {
+      "id": "r0m1",
+      "roundIndex": 0,
+      "round": "Quartas de final",
+      "label": "Luta 2",
+      "a": "f6",
+      "b": "f4",
+      "winner": "f6",
+      "status": "closed",
+      "settlement": {
+        "total": 0,
+        "winnerPool": 0,
+        "house": 0,
+        "purse": 0,
+        "distributed": 0,
+        "payments": [],
+        "winnerId": "f6",
+        "at": 1791572608192
+      }
+    },
+    {
+      "id": "r0m2",
+      "roundIndex": 0,
+      "round": "Quartas de final",
+      "label": "Luta 3",
+      "a": "f7",
+      "b": "f2",
+      "winner": "f7",
+      "status": "closed",
+      "settlement": {
+        "total": 0,
+        "winnerPool": 0,
+        "house": 0,
+        "purse": 0,
+        "distributed": 0,
+        "payments": [],
+        "winnerId": "f7",
+        "at": 1791572612777
+      }
+    },
+    {
+      "id": "r0m3",
+      "roundIndex": 0,
+      "round": "Quartas de final",
+      "label": "Luta 4",
+      "a": "f5",
+      "b": "f3",
+      "winner": "f5",
+      "status": "closed",
+      "settlement": {
+        "total": 0,
+        "winnerPool": 0,
+        "house": 0,
+        "purse": 0,
+        "distributed": 0,
+        "payments": [],
+        "winnerId": "f5",
+        "at": 1791572615928
+      }
+    },
+    {
+      "id": "r1m0",
+      "roundIndex": 1,
+      "round": "Semifinal",
+      "label": "SF 1",
+      "a": "f8",
+      "b": "f6",
+      "winner": "f8",
+      "status": "closed",
+      "settlement": {
+        "total": 0,
+        "winnerPool": 0,
+        "house": 0,
+        "purse": 0,
+        "distributed": 0,
+        "payments": [],
+        "winnerId": "f8",
+        "at": 1791572627040
+      }
+    },
+    {
+      "id": "r1m1",
+      "roundIndex": 1,
+      "round": "Semifinal",
+      "label": "SF 2",
+      "a": "f7",
+      "b": "f5",
+      "winner": "f7",
+      "status": "closed",
+      "settlement": {
+        "total": 0,
+        "winnerPool": 0,
+        "house": 0,
+        "purse": 0,
+        "distributed": 0,
+        "payments": [],
+        "winnerId": "f7",
+        "at": 1791572638208
+      }
+    },
+    {
+      "id": "r2m0",
+      "roundIndex": 2,
+      "round": "Grande final",
+      "label": "Final",
+      "a": "f8",
+      "b": "f7",
+      "winner": "f8",
+      "status": "closed",
+      "settlement": {
+        "total": 0,
+        "winnerPool": 0,
+        "house": 0,
+        "purse": 0,
+        "distributed": 0,
+        "payments": [],
+        "winnerId": "f8",
+        "at": 1791572655600
+      }
+    }
+  ],
+  "bets": [],
+  "payouts": [],
+  "settlements": [
+    {
+      "id": "settlement-mv1c3oc0-cqc1c",
+      "matchId": "r2m0",
+      "matchLabel": "Final",
+      "total": 0,
+      "house": 0,
+      "purse": 0,
+      "distributed": 0,
+      "at": 1791572655600
+    },
+    {
+      "id": "settlement-mv1c3aww-4mldq",
+      "matchId": "r1m1",
+      "matchLabel": "SF 2",
+      "total": 0,
+      "house": 0,
+      "purse": 0,
+      "distributed": 0,
+      "at": 1791572638208
+    },
+    {
+      "id": "settlement-mv1c32ao-fd7ko",
+      "matchId": "r1m0",
+      "matchLabel": "SF 1",
+      "total": 0,
+      "house": 0,
+      "purse": 0,
+      "distributed": 0,
+      "at": 1791572627040
+    },
+    {
+      "id": "settlement-mv1c2tq0-doct8",
+      "matchId": "r0m3",
+      "matchLabel": "Luta 4",
+      "total": 0,
+      "house": 0,
+      "purse": 0,
+      "distributed": 0,
+      "at": 1791572615928
+    },
+    {
+      "id": "settlement-mv1c2rah-vi8v5",
+      "matchId": "r0m2",
+      "matchLabel": "Luta 3",
+      "total": 0,
+      "house": 0,
+      "purse": 0,
+      "distributed": 0,
+      "at": 1791572612777
+    },
+    {
+      "id": "settlement-mv1c2nr4-gpbly",
+      "matchId": "r0m1",
+      "matchLabel": "Luta 2",
+      "total": 0,
+      "house": 0,
+      "purse": 0,
+      "distributed": 0,
+      "at": 1791572608192
+    },
+    {
+      "id": "settlement-mv1c2cuh-by3me",
+      "matchId": "r0m0",
+      "matchLabel": "Luta 1",
+      "total": 0,
+      "house": 0,
+      "purse": 0,
+      "distributed": 0,
+      "at": 1791572594057
+    }
+  ],
+  "activity": [
+    {
+      "id": "activity-mv1c3oc0-w3h60",
+      "text": "Malacath Filho do Ferro venceu Final; 0 PO foram para a casa.",
+      "tone": "success",
+      "at": 1791572655600
+    },
+    {
+      "id": "activity-mv1c3gjc-fsd7a",
+      "text": "Final foi sorteada para a transmissão.",
+      "tone": "normal",
+      "at": 1791572645496
+    },
+    {
+      "id": "activity-mv1c3awx-q3gx2",
+      "text": "Bjorna Martelo-Seco venceu SF 2; 0 PO foram para a casa.",
+      "tone": "success",
+      "at": 1791572638209
+    },
+    {
+      "id": "activity-mv1c36dc-q5koz",
+      "text": "SF 2 foi sorteada para a transmissão.",
+      "tone": "normal",
+      "at": 1791572632320
+    },
+    {
+      "id": "activity-mv1c32ao-xo9v6",
+      "text": "Malacath Filho do Ferro venceu SF 1; 0 PO foram para a casa.",
+      "tone": "success",
+      "at": 1791572627040
+    },
+    {
+      "id": "activity-mv1c2y6g-jj8m7",
+      "text": "SF 1 foi sorteada para a transmissão.",
+      "tone": "normal",
+      "at": 1791572621704
+    },
+    {
+      "id": "activity-mv1c2tq1-42zsu",
+      "text": "Vilkas de Jorrvaskr venceu Luta 4; 0 PO foram para a casa.",
+      "tone": "success",
+      "at": 1791572615929
+    },
+    {
+      "id": "activity-mv1c2so8-pyiux",
+      "text": "Luta 4 foi sorteada para a transmissão.",
+      "tone": "normal",
+      "at": 1791572614568
+    },
+    {
+      "id": "activity-mv1c2rah-tv89a",
+      "text": "Bjorna Martelo-Seco venceu Luta 3; 0 PO foram para a casa.",
+      "tone": "success",
+      "at": 1791572612777
+    },
+    {
+      "id": "activity-mv1c2ozs-y3226",
+      "text": "Luta 3 foi sorteada para a transmissão.",
+      "tone": "normal",
+      "at": 1791572609800
+    },
+    {
+      "id": "activity-mv1c2nr5-3301m",
+      "text": "Kora Lâmina Rubra venceu Luta 2; 0 PO foram para a casa.",
+      "tone": "success",
+      "at": 1791572608193
+    },
+    {
+      "id": "activity-mv1c2i48-4m6np",
+      "text": "Luta 2 foi sorteada para a transmissão.",
+      "tone": "normal",
+      "at": 1791572600888
+    },
+    {
+      "id": "activity-mv1c2cuh-69tun",
+      "text": "Malacath Filho do Ferro venceu Luta 1; 0 PO foram para a casa.",
+      "tone": "success",
+      "at": 1791572594057
+    },
+    {
+      "id": "activity-mv1c1wyg-lgful",
+      "text": "Luta 1 foi sorteada para a transmissão.",
+      "tone": "normal",
+      "at": 1791572573464
+    },
+    {
+      "id": "activity-mv1c1w9s-r1xqo",
+      "text": "Lutadores embaralhados pelo narrador antes da primeira luta.",
+      "tone": "success",
+      "at": 1791572572576
+    },
+    {
+      "id": "activity-mv19jq22-chyg2",
+      "text": "Novo torneio criado; regras e escalação foram mantidas.",
+      "tone": "normal",
+      "at": 1791568365482
+    }
+  ],
+  "eventStatus": "open",
+  "flow": {
+    "shuffled": true,
+    "currentMatchId": null,
+    "nextMatchId": null,
+    "lastEvent": "victory",
+    "eventNonce": 15,
+    "lastWinnerId": "f8",
+    "lastRoundIndex": 2,
+    "lastMatchSequence": 1
+  },
+  "tab": "public",
+  "bolg": null,
+  "revision": 34
+}
